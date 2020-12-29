@@ -11,7 +11,7 @@ jobs:
   test:
     runs-on: windows-latest
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         test-group: [content, meta, rendering, routing, unit, links-and-images]
     steps:
